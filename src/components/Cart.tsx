@@ -73,12 +73,12 @@ const Cart = () => {
             >
               <Image src="/hippo-empty-cart.png" fill alt="empty cart" />
             </div>
-            <div className="text-xl font-semibold">Your cart is empty</div>
+            <div className="text-xl font-semibold ">Your cart is empty</div>
             <SheetTrigger asChild>
                 <Link href="/products" className={buttonVariants({
                     variant: "link",
                     size: "sm",
-                    className: "text-sm text-muted-foreground"
+                    className: "text-sm text-muted-foreground text-sky-600"
                 })}>
                     Add items to your cart to checkout
                 </Link>
