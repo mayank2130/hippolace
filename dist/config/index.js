@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PRODUCT_CATEGORIES = void 0;
 exports.PRODUCT_CATEGORIES = [
     {
-        label: "UI Kits",
+        label: "Notes",
         value: "ui_kits",
         featured: [
             {
@@ -24,11 +24,11 @@ exports.PRODUCT_CATEGORIES = [
         ],
     },
     {
-        label: "Icons",
+        label: "Projects",
         value: "icons",
         featured: [
             {
-                name: "Favorite Icon picks",
+                name: "Favorite Project picks",
                 href: "#",
                 imageSrc: "/nav/icons/picks.jpg",
             },
@@ -38,7 +38,7 @@ exports.PRODUCT_CATEGORIES = [
                 imageSrc: "/nav/icons/new.jpg",
             },
             {
-                name: "Bestselling Icons",
+                name: "Bestselling Projects",
                 href: "#",
                 imageSrc: "/nav/icons/bestsellers.jpg",
             },

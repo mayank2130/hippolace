@@ -95,9 +95,9 @@ exports.appRouter = (0, trpc_1.router)({
                         });
                         page = cursor || 1;
                         return [4 /*yield*/, payload.find({
-                                collection: "products",
+                                collection: 'products',
                                 where: __assign({ approvedForSale: {
-                                        equals: "approved",
+                                        equals: 'approved',
                                     } }, parsedQueryOpts),
                                 sort: sort,
                                 depth: 1,
@@ -108,7 +108,7 @@ exports.appRouter = (0, trpc_1.router)({
                         _b = _c.sent(), items = _b.docs, hasNextPage = _b.hasNextPage, nextPage = _b.nextPage;
                         return [2 /*return*/, {
                                 items: items,
-                                nextPage: hasNextPage ? nextPage : null
+                                nextPage: hasNextPage ? nextPage : null,
                             }];
                 }
             });

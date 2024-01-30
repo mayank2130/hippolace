@@ -19,7 +19,7 @@ function formatPrice(price, options) {
         style: "currency",
         currency: currency,
         notation: notation,
-        maximumFractionDigits: 2
+        maximumFractionDigits: 2,
     }).format(numericPrice);
 }
 exports.formatPrice = formatPrice;
