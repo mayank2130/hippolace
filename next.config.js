@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {};
 
 // next.config.js
 module.exports = {
-    images: {
-      domains: ['localhost'],
-    },
-  };
-  
+  images: {
+    domains: ["localhost", "hippolace-production-2849.up.railway.app"],
+  },
+};

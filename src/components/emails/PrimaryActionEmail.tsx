@@ -1,17 +1,17 @@
 import {
-    Body,
-    Button,
-    Container,
-    Head,
-    Hr,
-    Html,
-    Img,
-    Preview,
-    Section,
-    Text,
-    render,
-  } from '@react-email/components'
-  
+  Body,
+  Button,
+  Container,
+  Head,
+  Hr,
+  Html,
+  Img,
+  Preview,
+  Section,
+  Text,
+  render,
+} from '@react-email/components'
+
   import * as React from "react"
   
   interface EmailTemplateProps {
