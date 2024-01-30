@@ -20,6 +20,6 @@ export function formatPrice(
     style: "currency",
     currency,
     notation,
-    maximumFractionDigits: 2
-  }).format(numericPrice)
+    maximumFractionDigits: 2,
+  }).format(numericPrice);
 }

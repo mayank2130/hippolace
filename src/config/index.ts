@@ -1,6 +1,6 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: "UI Kits",
+    label: "Notes",
     value: "ui_kits" as const,
     featured: [
       {
@@ -21,11 +21,11 @@ export const PRODUCT_CATEGORIES = [
     ],
   },
   {
-    label: "Icons",
+    label: "Projects",
     value: "icons" as const,
     featured: [
       {
-        name: "Favorite Icon picks",
+        name: "Favorite Project picks",
         href: "#",
         imageSrc: "/nav/icons/picks.jpg",
       },
@@ -35,7 +35,7 @@ export const PRODUCT_CATEGORIES = [
         imageSrc: "/nav/icons/new.jpg",
       },
       {
-        name: "Bestselling Icons",
+        name: "Bestselling Projects",
         href: "#",
         imageSrc: "/nav/icons/bestsellers.jpg",
       },
